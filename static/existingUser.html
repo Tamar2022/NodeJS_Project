@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <script src="../Scripts/existingUser.js"></script>
+</head>
+<body onload="getDetails()">
+    <div id="divNewU">
+       
+        
+        <label>fullName</label>
+        <input type="text" id="fullName" />
+        <br />
+        
+        <br />
+        city<input id="city" type="text" placeholder="עיר"/>
+        <br />
+        <br />street<input id="street" type="text" placeholder="רחוב"/>
+        <br />
+        <br />houseNum<input id="houseNum" type="text" placeholder="מס'בית"/>
+        <br />
+        <br />
+        <label>password</label>
+        <input type="password" id="password" />
+        <br />
+        <button onclick="editExistingUser()">edit</button>
+    </div>
+    
+    <br />
+    <br />
+    <h1>הזמנות קודמות</h1>
+    <div id="pastOrders">
+
+
+    </div>
+</body>
+
+</html>

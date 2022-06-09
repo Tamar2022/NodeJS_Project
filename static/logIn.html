@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>new user</title>
+    <script src="../Scripts/logIn.js"></script>
+</head>
+
+<body>
+    <div>
+        user name<input id="userName" type="text" />
+        <br />
+        <br />
+
+
+        password<input id="pass" type="text" />
+        <br />
+        <button onclick="getUser()">login</button>
+    </div>
+    <br />
+
+    <button onclick="logInForNewUser()">new user</button>
+    <br />
+    <br />
+   
+
+    <div id="newUser" style="display:none">
+       
+        fullName<input id="fullName" type="text" />
+        <br />
+        <br />
+        city<input id="city" type="text" placeholder="עיר"/>
+        <br />
+        <br />street<input id="street" type="text" placeholder="רחוב"/>
+        <br />
+        <br />houseNum<input id="houseNum" type="text" placeholder="מס'בית"/>
+        <br />
+        <br />
+        password<input id="password" type="password" />
+        <button id="enrollButton" onclick="enroll()">enroll</button>
+    </div>
+</body>
+</html>
